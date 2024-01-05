@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-image: url("https://i.guim.co.uk/img/media/96fd88272e5be09478f64564c45d05c29496c539/25_263_5204_3122/master/5204.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=73860109328bfe02e2742c592bf710ab");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 35%;
+    background-repeat: no-repeat;
+    font-family: 'Cursed Timer ULiL', sans-serif;                                            
+
+}
+
+h1 {
+    text-align: center;
+    margin: 10px auto 0 auto;
+    font-size: 30px
+}
+
+h3 {
+    margin: 5px auto;
+    font-size: 30px
+}
+
+h1, h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-shadow: 0 0 8px black;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scoring {
+    background: transparent;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 0 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-shadow: 0 0 18px black; 
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.points > button{
+    font-family: 'Cursed Timer ULiL', sans-serif;                                            
+    color: white;
+    text-shadow: 0 0 8px black;
+    background: #2b42b3;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.new {
+    margin-left: 34%;
+    margin-top: 6px;
+    font-size: 15px;
+    background: #2b42b3;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 2px 7px;
+}
+
+
